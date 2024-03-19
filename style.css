@@ -1,33 +1,38 @@
-* {
+/*Configuração Padrão de início*/
+*{
     margin: 0;
     padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
 body {
     height: 100vh;
     width: 100vw;
 }
 
-.cabecalho {
-    padding: 70px;
-    background-color: #578dab;
-    display: flex;
-    justify-content: end;
-    font-size: 12px;
-    color: white;
+header { /*Chamamos nosso Header para estilização*/ 
+    background-color: rgb(78, 135, 168); /*Cor de fundo*/
+    padding: 10vh; /*ajustamos o tamanho do preenchimento*/
 }
-.cabecalho ul {
-    list-style: none;
-    display: flex;
+
+.menu-header { /*Aqui é onde estão armazenados nossas listas do Header*/
+    display: flex; /*Usamos para jogar os itens lado a lado*/
+    justify-content: end; /*Aqui justificamos os itens desta lista para  o fim do Header*/
+    flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
 }
-.cabecalho li {
-    margin-left: 10px;
+
+.menu-header > li > a { /*Aqui sabemos que dentro da nossa LI existe uma TAG de Link "a" */
+   color: white; /*Cor da letra*/
+   text-decoration: none; /*Desabilitando a decoração dos textos de Link*/
+   font-size: 13px; /*Tamanho da letra*/
 }
-.cabecalho a {
-    text-decoration: none;
-    color: white;
+
+.menu-header > li > a:hover { /*Efeito ao passar o cursor*/
+    color: rgb(81, 81, 228); /*Habilitando uma cor ao passar o mouse*/
+    transition: 0.8s; /*Adicionamos aqui uma transição*/
 }
-.cabecalho a:hover{
-    color: #02505a;
-    transition: 0.5s;
+.menu-header > li { /*Chamamos nossas Li diretamente para espaça-las*/
+    margin-left: 20px; /*Margem a esquerda para espaçamento*/
 }
