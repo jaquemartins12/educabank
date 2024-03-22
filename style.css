@@ -37,6 +37,64 @@ header { /*Chamamos nosso Header para estilização*/
     margin-left: 20px; /*Margem a esquerda para espaçamento*/
 }
 
+#sessao {
+    padding: 15rem;
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+} /* Colocamos grau, cor e porcentagem a ser usada */
+
+#sessao h1 {
+    font-size: 2.5em;
+    color: rgba(0, 0, 0, 0.759);
+}
+#sessao p{
+    font-size: 2.3em;
+    margin: 20px 0;
+}
+#sessao button{
+    padding: 22px;
+    border-radius: 50px;
+    border-color: rgb(19, 153, 108);
+    width: 20em;
+    cursor: pointer;
+}
+
+#sessao button a{
+    text-decoration: none;
+    color: rgb(19, 153, 108);
+}
+
+#app{
+    padding: 15rem;
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
+}
+
+#app div button{
+    padding: 22px;
+    border-radius: 50px;
+    border-color: rgb(19, 153, 108);
+    width: 20em;
+    cursor: pointer; 
+}
+
+#app button a{
+    text-decoration: none;
+    color: rgb(19, 153, 108);
+}
+
+#app div p{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+#app div img {
+    width: 25rem;
+    height: 25rem;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+
 
     /* AULA SOBRE UNIDADES DE MEDIDA */
 
@@ -51,3 +109,4 @@ tamanho padrão do paragrafo é 16 px*/
 /* vh - viewport height (altura) tamanho em relação a tela do usuário (trabalha como se fosse porcentagem) */
 
 /* vw - viewport width (largura) tamanho em relação da tela do usuário (trabalha como se fosse porcentagem) */
+/* cssgradient.io */
