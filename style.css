@@ -1,5 +1,5 @@
 /*Configuração Padrão de início*/
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -8,49 +8,71 @@
 
 /*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
 body {
+
     height: 100vh;
     width: 100vw;
 }
 
-header { /*Chamamos nosso Header para estilização*/ 
-    background-color: rgb(78, 135, 168); /*Cor de fundo*/
-    padding: 10vh; /*ajustamos o tamanho do preenchimento*/
+header {
+    /*Chamamos nosso Header para estilização*/
+    background-color: rgb(78, 135, 168);
+    /*Cor de fundo*/
+    padding: 10vh;
+    /*ajustamos o tamanho do preenchimento*/
 }
 
-.menu-header { /*Aqui é onde estão armazenados nossas listas do Header*/
-    display: flex; /*Usamos para jogar os itens lado a lado*/
-    justify-content: end; /*Aqui justificamos os itens desta lista para  o fim do Header*/
-    flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
+.menu-header {
+    /*Aqui é onde estão armazenados nossas listas do Header*/
+    display: flex;
+    /*Usamos para jogar os itens lado a lado*/
+    justify-content: end;
+    /*Aqui justificamos os itens desta lista para  o fim do Header*/
+    flex-wrap: wrap;
+    /*Usado para informar que os itens podem quebrar em telas menores*/
 }
 
-.menu-header > li > a { /*Aqui sabemos que dentro da nossa LI existe uma TAG de Link "a" */
-   color: white; /*Cor da letra*/
-   text-decoration: none; /*Desabilitando a decoração dos textos de Link*/
-   font-size: 13px; /*Tamanho da letra*/
+.menu-header>li>a {
+    /*Aqui sabemos que dentro da nossa LI existe uma TAG de Link "a" */
+    color: white;
+    /*Cor da letra*/
+    text-decoration: none;
+    /*Desabilitando a decoração dos textos de Link*/
+    font-size: 13px;
+    /*Tamanho da letra*/
 }
 
-.menu-header > li > a:hover { /*Efeito ao passar o cursor*/
-    color: rgb(81, 81, 228); /*Habilitando uma cor ao passar o mouse*/
-    transition: 0.8s; /*Adicionamos aqui uma transição*/
+.menu-header>li>a:hover {
+    /*Efeito ao passar o cursor*/
+    color: rgb(81, 81, 228);
+    /*Habilitando uma cor ao passar o mouse*/
+    transition: 0.8s;
+    /*Adicionamos aqui uma transição*/
 }
-.menu-header > li { /*Chamamos nossas Li diretamente para espaça-las*/
-    margin-left: 20px; /*Margem a esquerda para espaçamento*/
+
+.menu-header>li {
+    /*Chamamos nossas Li diretamente para espaça-las*/
+    margin-left: 20px;
+    /*Margem a esquerda para espaçamento*/
 }
 
 #sessao {
     padding: 15rem;
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
-} /* Colocamos grau, cor e porcentagem a ser usada */
+}
+
+/* Colocamos grau, cor e porcentagem a ser usada */
 
 #sessao h1 {
     font-size: 2.5em;
     color: rgba(0, 0, 0, 0.759);
 }
-#sessao p{
+
+#sessao p {
     font-size: 2.3em;
     margin: 20px 0;
 }
-#sessao button{
+
+#sessao button {
     padding: 22px;
     border-radius: 50px;
     border-color: rgb(19, 153, 108);
@@ -58,32 +80,32 @@ header { /*Chamamos nosso Header para estilização*/
     cursor: pointer;
 }
 
-#sessao button a{
+#sessao button a {
     text-decoration: none;
     color: rgb(19, 153, 108);
 }
 
-#app{
+#app {
     padding: 15rem;
     background-color: rgb(226, 233, 233);
     display: flex;
     justify-content: space-around;
 }
 
-#app div button{
+#app div button {
     padding: 22px;
     border-radius: 50px;
     border-color: rgb(19, 153, 108);
     width: 20em;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-#app button a{
+#app button a {
     text-decoration: none;
     color: rgb(19, 153, 108);
 }
 
-#app div p{
+#app div p {
     font-size: 2.8em;
     margin-bottom: 20px;
 }
@@ -95,8 +117,67 @@ header { /*Chamamos nosso Header para estilização*/
     margin-left: 50px;
 }
 
+#container {
+    padding: 15rem;
+    background-color: rgb(226, 233, 233);
+}
 
-    /* AULA SOBRE UNIDADES DE MEDIDA */
+#container h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.671);
+    margin-top: -20rem;
+    margin-bottom: 2rem;
+}
+
+#container p {
+    font-size: 1.5rem;
+    color: rgb(34, 34, 74);
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+#container button {
+    padding: 15px;
+    border-radius: 3rem;
+    width: 12rem;
+    margin-bottom: 50px;
+    border-color: blue;
+}
+
+#container button a {
+    text-decoration: none;
+    color: blue;
+}
+
+#container button:hover {
+    background-color: blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#container button a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.line {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+#container img {
+    width: 45rem;
+    margin-left: 50px;
+}
+
+
+#container-cofre {
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba (5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+}
+
+
+/* AULA SOBRE UNIDADES DE MEDIDA */
 
 /* px é uma unidade de medida de tamanho fixo.
 tamanho padrão do paragrafo é 16 px*/
