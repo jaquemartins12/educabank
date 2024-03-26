@@ -173,10 +173,62 @@ header {
 
 
 #container-cofre {
-    background: linear-gradient(180deg, #0c16a364 8.33%, rgba (5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15rem;
 }
 
+#container-cofre img{
+    width: 20rem;
+    height: auto;
+    margin-top: 9rem;
+}
 
+#container-cofre h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#container-cofre p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+#footer-contatos {
+    background-color: rgba(14, 13, 13, 0.959);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+#footer-contatos img {
+    width: 17rem;
+    margin-bottom: 30px;
+}
+
+#footer-contatos div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-contatos div a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-contatos a:hover {
+    color: rgb(94, 15, 15);
+    transition: 0.5s;
+}
 /* AULA SOBRE UNIDADES DE MEDIDA */
 
 /* px é uma unidade de medida de tamanho fixo.
