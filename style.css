@@ -78,11 +78,15 @@ header {
     border-color: rgb(19, 153, 108);
     width: 20em;
     cursor: pointer;
+    color: rgb(19, 153, 108);
 }
 
-#sessao button a {
-    text-decoration: none;
-    color: rgb(19, 153, 108);
+#sessao button:hover{
+    color: white;
+    transition: 0.8s;
+    background-color: rgb(19, 153, 108);
+    border-color: white
+
 }
 
 #app {
@@ -97,12 +101,15 @@ header {
     border-radius: 50px;
     border-color: rgb(19, 153, 108);
     width: 20em;
+    color: rgb(19, 153, 108);
     cursor: pointer;
 }
 
-#app button a {
-    text-decoration: none;
-    color: rgb(19, 153, 108);
+#app button:hover{
+    color: white;
+    transition: 0.8s;
+    background-color: rgb(19, 153, 108);
+    border-color: white
 }
 
 #app div p {
@@ -143,22 +150,15 @@ header {
     width: 12rem;
     margin-bottom: 50px;
     border-color: blue;
-}
-
-#container button a {
-    text-decoration: none;
     color: blue;
 }
 
-#container button:hover {
+#container button:hover{
     background-color: blue;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-#container button a:hover {
+    border-color: white;
+    transition: 0.8s;
     color: white;
-    transition: 0.5s;
+    cursor: pointer;
 }
 
 .line {
@@ -192,6 +192,7 @@ header {
     color: white;
     font-size: 30px;
     text-align: center;
+    margin-top: 100px;
 }
 
 #container-cofre p{
