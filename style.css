@@ -72,7 +72,7 @@ header {
     margin: 20px 0;
 }
 
-#sessao button {
+#sessao a button {
     padding: 22px;
     border-radius: 50px;
     border-color: rgb(19, 153, 108);
@@ -81,12 +81,11 @@ header {
     color: rgb(19, 153, 108);
 }
 
-#sessao button:hover{
+#sessao button:hover {
     color: white;
     transition: 0.8s;
     background-color: rgb(19, 153, 108);
     border-color: white
-
 }
 
 #app {
@@ -96,7 +95,7 @@ header {
     justify-content: space-around;
 }
 
-#app div button {
+#app div a button {
     padding: 22px;
     border-radius: 50px;
     border-color: rgb(19, 153, 108);
@@ -105,7 +104,7 @@ header {
     cursor: pointer;
 }
 
-#app button:hover{
+#app a button:hover {
     color: white;
     transition: 0.8s;
     background-color: rgb(19, 153, 108);
@@ -153,7 +152,7 @@ header {
     color: blue;
 }
 
-#container button:hover{
+#container button:hover {
     background-color: blue;
     border-color: white;
     transition: 0.8s;
@@ -182,20 +181,20 @@ header {
     padding: 15rem;
 }
 
-#container-cofre img{
+#container-cofre img {
     width: 20rem;
     height: auto;
     margin-top: 9rem;
 }
 
-#container-cofre h2{
+#container-cofre h2 {
     color: white;
     font-size: 30px;
     text-align: center;
     margin-top: 100px;
 }
 
-#container-cofre p{
+#container-cofre p {
     color: white;
     font-size: 18px;
     text-align: center;
@@ -221,7 +220,7 @@ header {
     justify-content: space-between;
 }
 
-#footer-contatos div a{
+#footer-contatos div a {
     text-decoration: none;
     color: white;
 }
@@ -230,6 +229,7 @@ header {
     color: rgb(94, 15, 15);
     transition: 0.5s;
 }
+
 /* AULA SOBRE UNIDADES DE MEDIDA */
 
 /* px é uma unidade de medida de tamanho fixo.
@@ -244,3 +244,51 @@ tamanho padrão do paragrafo é 16 px*/
 
 /* vw - viewport width (largura) tamanho em relação da tela do usuário (trabalha como se fosse porcentagem) */
 /* cssgradient.io */
+
+/* 480 */
+/* 767 */
+/* 991 */
+/* 1366 */
+/* 1920 */
+
+
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1366px) {}
+
+
+@media screen and (max-width: 991px) {
+    #sessao a button {
+        padding: 0.9rem;
+        width: 14rem;
+    }
+
+
+    #app div a button {
+        width: 17rem;
+        padding: 0.9rem;
+        }
+     #app div img {
+        width: 18rem;
+     }
+
+     #app div p {
+        font-size: 1.8rem;
+        margin: 15px 0;
+     }
+    #container button {
+        padding: 8px;
+        width: auto;
+    }
+
+    #app {
+        padding: 30vh;
+    }
+}
+
+
+@media screen and (max-width: 767px) {}
+
+
+@media screen and (max-width: 480px) {}
