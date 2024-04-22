@@ -259,34 +259,56 @@ tamanho padrão do paragrafo é 16 px*/
 
 
 @media screen and (max-width: 991px) {
-    #sessao a button {
-        padding: 0.9rem;
-        width: 14rem;
+    #sessao{
+        padding: 25vh;
     }
 
-
-    #app div a button {
-        width: 17rem;
-        padding: 0.9rem;
-        }
-     #app div img {
-        width: 18rem;
-     }
-
-     #app div p {
+    #sessao h1{
+        font-size: 2.5em;
+    }
+    
+    #sessao p{
         font-size: 1.8rem;
         margin: 15px 0;
-     }
-    #container button {
-        padding: 8px;
-        width: auto;
     }
 
-    #app {
+    #sessao a button{
+        width: 15em;
+        padding: 0.9rem;
+    }
+
+    #app{
         padding: 30vh;
     }
-}
 
+    #app a button{
+        width: 15em;
+        padding: 0.9rem;
+    }
+
+    #app div p{
+        font-size: 1.8em;
+    }
+    
+    #app div img{
+        width: 18rem;
+        height: auto;
+    }
+
+    #container{
+        padding: 35vh;
+    }
+
+    #container h2{
+    margin-top: 1rem;
+    }
+
+    #container a button{
+        width: 14em;
+        padding: 0.9rem;
+        margin-left: 12rem;
+    }
+}
 
 @media screen and (max-width: 767px) {}
 
