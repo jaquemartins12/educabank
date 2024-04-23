@@ -259,6 +259,8 @@ tamanho padrão do paragrafo é 16 px*/
 
 
 @media screen and (max-width: 991px) {
+
+    
     #sessao{
         padding: 25vh;
     }
@@ -278,25 +280,24 @@ tamanho padrão do paragrafo é 16 px*/
     }
 
     #app{
-        padding: 30vh;
+        padding: 18vh;
     }
 
-    #app a button{
-        width: 15em;
+    #app div a button{
         padding: 0.9rem;
     }
 
     #app div p{
-        font-size: 1.8em;
+        font-size: 1em;
     }
     
     #app div img{
-        width: 18rem;
+        width: 14rem;
         height: auto;
     }
 
     #container{
-        padding: 35vh;
+        padding: 20vh;
     }
 
     #container h2{
@@ -304,9 +305,50 @@ tamanho padrão do paragrafo é 16 px*/
     }
 
     #container a button{
-        width: 14em;
+        width: 10em;
         padding: 0.9rem;
         margin-left: 12rem;
+    }
+
+    #container-cofre div h2 {
+        font-size: 1em;
+    }
+
+    #container img {
+        width: 20rem;
+        margin-left: 70px;
+    }
+
+    #container-cofre {
+        padding: 20vh;
+    }
+
+    #container-cofre div img {
+        width: 10rem;
+    }
+
+    #container-cofre div h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #container-cofre div p {
+        font-size: 12px;
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    #footer-contatos div p {
+        font-size: 10px;
+    }
+
+    #footer-contatos div a {
+        font-size: 10px;
+    }
+
+    
+    #footer-contatos div {
+        justify-content: space-evenly;
     }
 }
 
