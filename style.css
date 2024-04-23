@@ -280,7 +280,8 @@ tamanho padrão do paragrafo é 16 px*/
     }
 
     #app {
-        padding: 25vh;
+        padding: 20vh;
+        align-items: center;
     }
 
     #app div a button {
@@ -358,7 +359,30 @@ tamanho padrão do paragrafo é 16 px*/
     }
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    header {
+        padding: 1.9em;
+    }
+
+    #sessao {
+        padding: 20vh;
+    }
+
+    #sessao h1 {
+        font-size: 2em;
+    }
+
+    #sessao p {
+        font-size: 1.7em;
+    }
+
+    #sessao a button {
+        width: 14em;
+        padding: 0.7em;
+    }
+
+    
+}
 
 
 @media screen and (max-width: 480px) {}
