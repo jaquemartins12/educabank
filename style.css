@@ -385,4 +385,105 @@ tamanho padrão do paragrafo é 16 px*/
 }
 
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    header {
+        padding: 3vh;
+        
+    }
+    
+    #sessao {
+        padding: 15vh;
+    }
+
+    
+    #sessao h1{
+        font-size: 1em;
+    }
+
+    #sessao p {
+        font-size: 0.7em;
+    }
+  
+    #sessao a button {
+        width: em;
+        padding: 0.3em;
+        font-size: 9px;
+    }
+
+    #app {
+        padding: 15vh;
+    }
+
+    #app div p {
+        font-size: 0.9rem;
+    }
+
+    #app div img {
+        width: 9rem;
+        height: 9rem;
+        margin-top: 20px;
+    }
+
+    #app div a button {
+        width: 17em;
+        padding: 0.5em;
+        font-size: 5px;
+    }
+
+    #container {
+        padding: 15vh;
+    }
+    #container h2 {
+        font-size: 1rem;
+    }
+
+    #container p {
+        font-size: 0.8rem;
+    }
+
+    #container a button {
+        width: 17em;
+        padding: 1em;
+        font-size: 5px;
+    }
+
+    #container img {
+     width: 15rem;   
+    }
+
+    #container-cofre {
+        padding: 15vh;
+    }
+
+    #container-cofre div img {
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 40px;
+    }
+
+    #container-cofre div h2 {
+        font-size: 0.5rem;
+        margin-bottom: -25px;
+    }
+
+    #container-cofre div p {
+        font-size: 0.3rem;
+    }
+
+    #footer-contatos {
+        padding: 1vh;
+    }
+
+    #footer-contatos img {
+        width: 9.3rem;
+        margin-top: 10px;
+    }
+
+    #footer-contatos div p {
+        font-size: 5px;
+    }
+
+    #footer-contatos div a {
+        font-size: 5px;
+    }
+}
